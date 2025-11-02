@@ -1,0 +1,120 @@
+/* This affects the whole page */
+body {
+    font-family: Arial, sans-serif; /* A simple, common font */
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark gray text */
+    margin: 0;
+    padding: 0;
+}
+
+/* This is a wrapper to center the content */
+.container {
+    width: 90%; /* Use percentage for responsiveness */
+    max-width: 900px; /* Max width so it doesn't get too wide on big screens */
+    margin: 20px auto; /* This centers the container */
+    background-color: #ffffff; /* White background for the content */
+    border: 1px solid #ddd;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* A simple shadow */
+    padding: 20px;
+}
+
+/* Style for the main page title */
+header {
+    text-align: center;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #444;
+}
+
+/* Style for the main content area */
+main {
+    padding: 10px;
+}
+
+/* Remove bullets from the navigation list */
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Style for the navigation links */
+.nav-link {
+    display: block; /* Makes the whole area clickable */
+    text-decoration: none; /* Removes the underline */
+    color: #ffffff;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Specific colors for each diet link */
+.nav-link.keto {
+    background-color: #e67e22; /* Orange */
+}
+.nav-link.vegetarian {
+    background-color: #2ecc71; /* Green */
+}
+.nav-link.non-veg {
+    background-color: #e74c3c; /* Red */
+}
+
+/* A simple hover effect */
+.nav-link:hover {
+    opacity: 0.8;
+}
+
+/* Style for the "Back to Home" link */
+.back-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #3498db; /* Blue */
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+/* Style for each recipe "card" */
+.recipe-card {
+    background-color: #fafafa;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.recipe-card h2 {
+    color: #333;
+    margin-top: 0;
+}
+
+.recipe-card h3 {
+    color: #555;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+
+/* Style for ingredient and instruction lists */
+.recipe-card ul,
+.recipe-card ol {
+    line-height: 1.6; /* Adds some spacing between lines */
+}
+
+/* Style for the page footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    font-size: 0.9em;
+    color: #888;
+}
